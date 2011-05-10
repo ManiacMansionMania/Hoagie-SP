@@ -15078,9 +15078,7 @@
     <PamFiles />
   </Component>
   <Component Name="SourceControl">
-    <ProjectUnderControl>True</ProjectUnderControl>
-    <SourceControlProjectName>Hoagie-SP</SourceControlProjectName>
-    <SourceControlProvider>ComponentSoftware RCS</SourceControlProvider>
+    <ProjectUnderControl>False</ProjectUnderControl>
   </Component>
   <Component Name="Welcome" />
 </AGSEditorDocument>
