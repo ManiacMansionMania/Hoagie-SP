@@ -3789,13 +3789,6 @@
                       <Sprite Slot="342" Width="26" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                     </Sprites>
                   </SpriteFolder>
-                  <SpriteFolder Name="Special">
-                    <SubFolders />
-                    <Sprites>
-                      <Sprite Slot="1087" Width="22" Height="77" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                      <Sprite Slot="1088" Width="26" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                    </Sprites>
-                  </SpriteFolder>
                 </SubFolders>
                 <Sprites>
                   <Sprite Slot="321" Width="22" Height="77" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
@@ -3920,7 +3913,6 @@
                   <SpriteFolder Name="Talk">
                     <SubFolders />
                     <Sprites>
-                      <Sprite Slot="363" Width="22" Height="76" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                       <Sprite Slot="364" Width="26" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                       <Sprite Slot="857" Width="22" Height="76" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                     </Sprites>
@@ -3946,7 +3938,6 @@
                   <Sprite Slot="360" Width="22" Height="76" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="361" Width="22" Height="76" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="362" Width="22" Height="76" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="1202" Width="22" Height="76" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                 </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="Razor">
@@ -4510,19 +4501,19 @@
                   <SpriteFolder Name="Talk">
                     <SubFolders />
                     <Sprites>
-                      <Sprite Slot="1223" Width="28" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                      <Sprite Slot="1223" Width="25" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                       <Sprite Slot="1224" Width="26" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                     </Sprites>
                   </SpriteFolder>
                 </SubFolders>
                 <Sprites>
-                  <Sprite Slot="1208" Width="28" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="1208" Width="25" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="1209" Width="25" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="1210" Width="25" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="1211" Width="25" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="1212" Width="25" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="1213" Width="26" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
-                  <Sprite Slot="1214" Width="25" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+                  <Sprite Slot="1214" Width="26" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="1215" Width="26" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="1216" Width="26" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
                   <Sprite Slot="1217" Width="26" Height="75" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
@@ -5667,7 +5658,7 @@
                   <ViewFrame>
                     <ID>1</ID>
                     <Image>337</Image>
-                    <Flipped>True</Flipped>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>95</Sound>
                   </ViewFrame>
@@ -6582,7 +6573,7 @@
                   <ViewFrame>
                     <ID>1</ID>
                     <Image>256</Image>
-                    <Flipped>True</Flipped>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>95</Sound>
                   </ViewFrame>
@@ -7340,7 +7331,7 @@
                     <ID>4</ID>
                     <Image>335</Image>
                     <Flipped>False</Flipped>
-                    <Delay>97</Delay>
+                    <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
@@ -15219,8 +15210,8 @@
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aMusic1</ScriptName>
                 <SourceFileName>music\music1.mid</SourceFileName>
+                <ScriptName>aMusic1</ScriptName>
                 <Index>1</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15231,8 +15222,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic10</ScriptName>
                 <SourceFileName>music\music10.mid</SourceFileName>
+                <ScriptName>aMusic10</ScriptName>
                 <Index>2</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15243,8 +15234,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic11</ScriptName>
                 <SourceFileName>music\music11.mid</SourceFileName>
+                <ScriptName>aMusic11</ScriptName>
                 <Index>3</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15255,8 +15246,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic12</ScriptName>
                 <SourceFileName>music\music12.mid</SourceFileName>
+                <ScriptName>aMusic12</ScriptName>
                 <Index>4</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15267,8 +15258,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic13</ScriptName>
                 <SourceFileName>music\music13.mid</SourceFileName>
+                <ScriptName>aMusic13</ScriptName>
                 <Index>5</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15279,8 +15270,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic14</ScriptName>
                 <SourceFileName>music\music14.mid</SourceFileName>
+                <ScriptName>aMusic14</ScriptName>
                 <Index>6</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15291,8 +15282,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic15</ScriptName>
                 <SourceFileName>music\music15.mid</SourceFileName>
+                <ScriptName>aMusic15</ScriptName>
                 <Index>7</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15303,8 +15294,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic16</ScriptName>
                 <SourceFileName>music\music16.mid</SourceFileName>
+                <ScriptName>aMusic16</ScriptName>
                 <Index>8</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15315,8 +15306,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic17</ScriptName>
                 <SourceFileName>music\music17.mid</SourceFileName>
+                <ScriptName>aMusic17</ScriptName>
                 <Index>9</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15327,8 +15318,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic18</ScriptName>
                 <SourceFileName>music\music18.mid</SourceFileName>
+                <ScriptName>aMusic18</ScriptName>
                 <Index>10</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15339,8 +15330,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic19</ScriptName>
                 <SourceFileName>music\music19.mid</SourceFileName>
+                <ScriptName>aMusic19</ScriptName>
                 <Index>11</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15351,8 +15342,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic2</ScriptName>
                 <SourceFileName>music\music2.mid</SourceFileName>
+                <ScriptName>aMusic2</ScriptName>
                 <Index>12</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15363,8 +15354,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic20</ScriptName>
                 <SourceFileName>music\music20.mid</SourceFileName>
+                <ScriptName>aMusic20</ScriptName>
                 <Index>13</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15375,8 +15366,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic21</ScriptName>
                 <SourceFileName>music\music21.mid</SourceFileName>
+                <ScriptName>aMusic21</ScriptName>
                 <Index>14</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15387,8 +15378,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic22</ScriptName>
                 <SourceFileName>music\music22.mid</SourceFileName>
+                <ScriptName>aMusic22</ScriptName>
                 <Index>15</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15399,8 +15390,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic23</ScriptName>
                 <SourceFileName>music\music23.mid</SourceFileName>
+                <ScriptName>aMusic23</ScriptName>
                 <Index>16</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15411,8 +15402,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic24</ScriptName>
                 <SourceFileName>music\music24.mid</SourceFileName>
+                <ScriptName>aMusic24</ScriptName>
                 <Index>17</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15423,8 +15414,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic25</ScriptName>
                 <SourceFileName>music\music25.mid</SourceFileName>
+                <ScriptName>aMusic25</ScriptName>
                 <Index>18</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15435,8 +15426,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic26</ScriptName>
                 <SourceFileName>music\music26.mid</SourceFileName>
+                <ScriptName>aMusic26</ScriptName>
                 <Index>19</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15447,8 +15438,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic3</ScriptName>
                 <SourceFileName>music\music3.mid</SourceFileName>
+                <ScriptName>aMusic3</ScriptName>
                 <Index>20</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15459,8 +15450,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic4</ScriptName>
                 <SourceFileName>music\music4.mid</SourceFileName>
+                <ScriptName>aMusic4</ScriptName>
                 <Index>21</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15471,8 +15462,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic5</ScriptName>
                 <SourceFileName>music\music5.mid</SourceFileName>
+                <ScriptName>aMusic5</ScriptName>
                 <Index>22</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15483,8 +15474,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic6</ScriptName>
                 <SourceFileName>music\music6.mid</SourceFileName>
+                <ScriptName>aMusic6</ScriptName>
                 <Index>23</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15495,8 +15486,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic7</ScriptName>
                 <SourceFileName>music\music7.mid</SourceFileName>
+                <ScriptName>aMusic7</ScriptName>
                 <Index>24</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15507,8 +15498,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic8</ScriptName>
                 <SourceFileName>music\music8.mid</SourceFileName>
+                <ScriptName>aMusic8</ScriptName>
                 <Index>25</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15519,8 +15510,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aMusic9</ScriptName>
                 <SourceFileName>music\music9.mid</SourceFileName>
+                <ScriptName>aMusic9</ScriptName>
                 <Index>26</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -15543,8 +15534,8 @@
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aSound1</ScriptName>
                 <SourceFileName>sound\sound1.ogg</SourceFileName>
+                <ScriptName>aSound1</ScriptName>
                 <Index>27</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15555,8 +15546,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound100</ScriptName>
                 <SourceFileName>sound\sound100.wav</SourceFileName>
+                <ScriptName>aSound100</ScriptName>
                 <Index>28</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15567,8 +15558,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound11</ScriptName>
                 <SourceFileName>sound\sound11.wav</SourceFileName>
+                <ScriptName>aSound11</ScriptName>
                 <Index>29</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15579,8 +15570,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound12</ScriptName>
                 <SourceFileName>sound\sound12.wav</SourceFileName>
+                <ScriptName>aSound12</ScriptName>
                 <Index>30</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15591,8 +15582,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound2</ScriptName>
                 <SourceFileName>sound\sound2.ogg</SourceFileName>
+                <ScriptName>aSound2</ScriptName>
                 <Index>31</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15603,8 +15594,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound28</ScriptName>
                 <SourceFileName>sound\sound28.wav</SourceFileName>
+                <ScriptName>aSound28</ScriptName>
                 <Index>32</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15615,8 +15606,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound3</ScriptName>
                 <SourceFileName>sound\sound3.ogg</SourceFileName>
+                <ScriptName>aSound3</ScriptName>
                 <Index>33</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15627,8 +15618,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound30</ScriptName>
                 <SourceFileName>sound\sound30.wav</SourceFileName>
+                <ScriptName>aSound30</ScriptName>
                 <Index>34</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15639,8 +15630,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound31</ScriptName>
                 <SourceFileName>sound\sound31.wav</SourceFileName>
+                <ScriptName>aSound31</ScriptName>
                 <Index>35</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15651,8 +15642,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound32</ScriptName>
                 <SourceFileName>sound\sound32.wav</SourceFileName>
+                <ScriptName>aSound32</ScriptName>
                 <Index>36</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15663,8 +15654,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound33</ScriptName>
                 <SourceFileName>sound\sound33.wav</SourceFileName>
+                <ScriptName>aSound33</ScriptName>
                 <Index>37</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15675,8 +15666,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound35</ScriptName>
                 <SourceFileName>sound\sound35.ogg</SourceFileName>
+                <ScriptName>aSound35</ScriptName>
                 <Index>38</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15687,8 +15678,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound36</ScriptName>
                 <SourceFileName>sound\sound36.ogg</SourceFileName>
+                <ScriptName>aSound36</ScriptName>
                 <Index>39</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15699,8 +15690,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound37</ScriptName>
                 <SourceFileName>sound\sound37.ogg</SourceFileName>
+                <ScriptName>aSound37</ScriptName>
                 <Index>40</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15711,8 +15702,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound38</ScriptName>
                 <SourceFileName>sound\sound38.ogg</SourceFileName>
+                <ScriptName>aSound38</ScriptName>
                 <Index>41</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15723,8 +15714,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound39</ScriptName>
                 <SourceFileName>sound\sound39.ogg</SourceFileName>
+                <ScriptName>aSound39</ScriptName>
                 <Index>42</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15735,8 +15726,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound4</ScriptName>
                 <SourceFileName>sound\sound4.ogg</SourceFileName>
+                <ScriptName>aSound4</ScriptName>
                 <Index>43</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15747,8 +15738,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound40</ScriptName>
                 <SourceFileName>sound\sound40.ogg</SourceFileName>
+                <ScriptName>aSound40</ScriptName>
                 <Index>44</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15759,8 +15750,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound41</ScriptName>
                 <SourceFileName>sound\sound41.ogg</SourceFileName>
+                <ScriptName>aSound41</ScriptName>
                 <Index>45</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15771,8 +15762,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound42</ScriptName>
                 <SourceFileName>sound\sound42.ogg</SourceFileName>
+                <ScriptName>aSound42</ScriptName>
                 <Index>46</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15783,8 +15774,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound43</ScriptName>
                 <SourceFileName>sound\sound43.ogg</SourceFileName>
+                <ScriptName>aSound43</ScriptName>
                 <Index>47</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15795,8 +15786,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound44</ScriptName>
                 <SourceFileName>sound\sound44.ogg</SourceFileName>
+                <ScriptName>aSound44</ScriptName>
                 <Index>48</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15807,8 +15798,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound45</ScriptName>
                 <SourceFileName>sound\sound45.ogg</SourceFileName>
+                <ScriptName>aSound45</ScriptName>
                 <Index>49</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15819,8 +15810,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound46</ScriptName>
                 <SourceFileName>sound\sound46.ogg</SourceFileName>
+                <ScriptName>aSound46</ScriptName>
                 <Index>50</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15831,8 +15822,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound47</ScriptName>
                 <SourceFileName>sound\sound47.ogg</SourceFileName>
+                <ScriptName>aSound47</ScriptName>
                 <Index>51</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15843,8 +15834,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound48</ScriptName>
                 <SourceFileName>sound\sound48.ogg</SourceFileName>
+                <ScriptName>aSound48</ScriptName>
                 <Index>52</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15855,8 +15846,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound5</ScriptName>
                 <SourceFileName>sound\sound5.ogg</SourceFileName>
+                <ScriptName>aSound5</ScriptName>
                 <Index>53</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15867,8 +15858,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound50</ScriptName>
                 <SourceFileName>sound\sound50.ogg</SourceFileName>
+                <ScriptName>aSound50</ScriptName>
                 <Index>54</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15879,8 +15870,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound51</ScriptName>
                 <SourceFileName>sound\sound51.ogg</SourceFileName>
+                <ScriptName>aSound51</ScriptName>
                 <Index>55</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15891,8 +15882,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound58</ScriptName>
                 <SourceFileName>sound\sound58.ogg</SourceFileName>
+                <ScriptName>aSound58</ScriptName>
                 <Index>56</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15903,8 +15894,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound59</ScriptName>
                 <SourceFileName>sound\sound59.ogg</SourceFileName>
+                <ScriptName>aSound59</ScriptName>
                 <Index>57</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15915,8 +15906,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound60</ScriptName>
                 <SourceFileName>sound\sound60.ogg</SourceFileName>
+                <ScriptName>aSound60</ScriptName>
                 <Index>58</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15927,8 +15918,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound61</ScriptName>
                 <SourceFileName>sound\sound61.ogg</SourceFileName>
+                <ScriptName>aSound61</ScriptName>
                 <Index>59</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15939,8 +15930,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound62</ScriptName>
                 <SourceFileName>sound\sound62.ogg</SourceFileName>
+                <ScriptName>aSound62</ScriptName>
                 <Index>60</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15951,8 +15942,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound63</ScriptName>
                 <SourceFileName>sound\sound63.ogg</SourceFileName>
+                <ScriptName>aSound63</ScriptName>
                 <Index>61</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15963,8 +15954,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound64</ScriptName>
                 <SourceFileName>sound\sound64.ogg</SourceFileName>
+                <ScriptName>aSound64</ScriptName>
                 <Index>62</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15975,8 +15966,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound65</ScriptName>
                 <SourceFileName>sound\sound65.ogg</SourceFileName>
+                <ScriptName>aSound65</ScriptName>
                 <Index>63</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15987,8 +15978,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound66</ScriptName>
                 <SourceFileName>sound\sound66.ogg</SourceFileName>
+                <ScriptName>aSound66</ScriptName>
                 <Index>64</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -15999,8 +15990,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound67</ScriptName>
                 <SourceFileName>sound\sound67.ogg</SourceFileName>
+                <ScriptName>aSound67</ScriptName>
                 <Index>65</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16011,8 +16002,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound68</ScriptName>
                 <SourceFileName>sound\sound68.ogg</SourceFileName>
+                <ScriptName>aSound68</ScriptName>
                 <Index>66</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16023,8 +16014,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound69</ScriptName>
                 <SourceFileName>sound\sound69.ogg</SourceFileName>
+                <ScriptName>aSound69</ScriptName>
                 <Index>67</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16035,8 +16026,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound70</ScriptName>
                 <SourceFileName>sound\sound70.ogg</SourceFileName>
+                <ScriptName>aSound70</ScriptName>
                 <Index>68</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16047,8 +16038,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound71</ScriptName>
                 <SourceFileName>sound\sound71.ogg</SourceFileName>
+                <ScriptName>aSound71</ScriptName>
                 <Index>69</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16059,8 +16050,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound72</ScriptName>
                 <SourceFileName>sound\sound72.ogg</SourceFileName>
+                <ScriptName>aSound72</ScriptName>
                 <Index>70</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16071,8 +16062,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound73</ScriptName>
                 <SourceFileName>sound\sound73.ogg</SourceFileName>
+                <ScriptName>aSound73</ScriptName>
                 <Index>71</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16083,8 +16074,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound74</ScriptName>
                 <SourceFileName>sound\sound74.ogg</SourceFileName>
+                <ScriptName>aSound74</ScriptName>
                 <Index>72</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16095,8 +16086,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound75</ScriptName>
                 <SourceFileName>sound\sound75.ogg</SourceFileName>
+                <ScriptName>aSound75</ScriptName>
                 <Index>73</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16107,8 +16098,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound76</ScriptName>
                 <SourceFileName>sound\sound76.ogg</SourceFileName>
+                <ScriptName>aSound76</ScriptName>
                 <Index>74</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16119,8 +16110,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound77</ScriptName>
                 <SourceFileName>sound\sound77.ogg</SourceFileName>
+                <ScriptName>aSound77</ScriptName>
                 <Index>75</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16131,8 +16122,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound78</ScriptName>
                 <SourceFileName>sound\sound78.ogg</SourceFileName>
+                <ScriptName>aSound78</ScriptName>
                 <Index>76</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16143,8 +16134,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound79</ScriptName>
                 <SourceFileName>sound\sound79.ogg</SourceFileName>
+                <ScriptName>aSound79</ScriptName>
                 <Index>77</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16155,8 +16146,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound8</ScriptName>
                 <SourceFileName>sound\sound8.ogg</SourceFileName>
+                <ScriptName>aSound8</ScriptName>
                 <Index>78</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16167,8 +16158,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound81</ScriptName>
                 <SourceFileName>sound\sound81.ogg</SourceFileName>
+                <ScriptName>aSound81</ScriptName>
                 <Index>79</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16179,8 +16170,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound82</ScriptName>
                 <SourceFileName>sound\sound82.ogg</SourceFileName>
+                <ScriptName>aSound82</ScriptName>
                 <Index>80</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16191,8 +16182,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound83</ScriptName>
                 <SourceFileName>sound\sound83.ogg</SourceFileName>
+                <ScriptName>aSound83</ScriptName>
                 <Index>81</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16203,8 +16194,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound84</ScriptName>
                 <SourceFileName>sound\sound84.ogg</SourceFileName>
+                <ScriptName>aSound84</ScriptName>
                 <Index>82</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16215,8 +16206,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound85</ScriptName>
                 <SourceFileName>sound\sound85.ogg</SourceFileName>
+                <ScriptName>aSound85</ScriptName>
                 <Index>83</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16227,8 +16218,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound86</ScriptName>
                 <SourceFileName>sound\sound86.ogg</SourceFileName>
+                <ScriptName>aSound86</ScriptName>
                 <Index>84</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16239,8 +16230,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound87</ScriptName>
                 <SourceFileName>sound\sound87.ogg</SourceFileName>
+                <ScriptName>aSound87</ScriptName>
                 <Index>85</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16251,8 +16242,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound88</ScriptName>
                 <SourceFileName>sound\sound88.ogg</SourceFileName>
+                <ScriptName>aSound88</ScriptName>
                 <Index>86</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16263,8 +16254,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound89</ScriptName>
                 <SourceFileName>sound\sound89.ogg</SourceFileName>
+                <ScriptName>aSound89</ScriptName>
                 <Index>87</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16275,8 +16266,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound90</ScriptName>
                 <SourceFileName>sound\sound90.ogg</SourceFileName>
+                <ScriptName>aSound90</ScriptName>
                 <Index>88</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16287,8 +16278,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound91</ScriptName>
                 <SourceFileName>sound\sound91.ogg</SourceFileName>
+                <ScriptName>aSound91</ScriptName>
                 <Index>89</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16299,8 +16290,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound92</ScriptName>
                 <SourceFileName>sound\sound92.ogg</SourceFileName>
+                <ScriptName>aSound92</ScriptName>
                 <Index>90</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16311,8 +16302,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound93</ScriptName>
                 <SourceFileName>sound\sound93.ogg</SourceFileName>
+                <ScriptName>aSound93</ScriptName>
                 <Index>91</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16323,8 +16314,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound94</ScriptName>
                 <SourceFileName>sound\sound94.ogg</SourceFileName>
+                <ScriptName>aSound94</ScriptName>
                 <Index>92</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16335,8 +16326,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound95</ScriptName>
                 <SourceFileName>sound\sound95.ogg</SourceFileName>
+                <ScriptName>aSound95</ScriptName>
                 <Index>93</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16347,8 +16338,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound96</ScriptName>
                 <SourceFileName>sound\sound96.ogg</SourceFileName>
+                <ScriptName>aSound96</ScriptName>
                 <Index>94</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16359,8 +16350,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound97</ScriptName>
                 <SourceFileName>sound\sound97.ogg</SourceFileName>
+                <ScriptName>aSound97</ScriptName>
                 <Index>95</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16371,8 +16362,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound98</ScriptName>
                 <SourceFileName>sound\sound98.ogg</SourceFileName>
+                <ScriptName>aSound98</ScriptName>
                 <Index>96</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16383,8 +16374,8 @@
                 <FileLastModifiedDate>2017-01-12 17:02:25Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
-                <ScriptName>aSound99</ScriptName>
                 <SourceFileName>sound\sound99.ogg</SourceFileName>
+                <ScriptName>aSound99</ScriptName>
                 <Index>97</Index>
                 <Type>3</Type>
                 <BundlingType>InGameEXE</BundlingType>
@@ -16416,24 +16407,24 @@
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <Name xml:space="preserve">Ambient Sound</Name>
         <TypeID>1</TypeID>
+        <Name xml:space="preserve">Ambient Sound</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Music</Name>
         <TypeID>2</TypeID>
+        <Name>Music</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>SlowFade</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Sound</Name>
         <TypeID>3</TypeID>
+        <Name>Sound</Name>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
